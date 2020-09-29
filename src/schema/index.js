@@ -7,7 +7,8 @@ const schemaComposer = new SchemaComposer();
 import { UserQuery, UserMutation } from './user';
 import { TaskQuery, TaskMutation } from './task';
 
-schemaComposer.Query.addFields({
+schemaComposer.Query.addFields;
+({
     ...UserQuery,
     ...TaskQuery,
 });
